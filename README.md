@@ -1,20 +1,15 @@
 # cub3d
-### My first RayCaster with the MLX42 lib.<br>
+My first RayCaster.<br>
 This project is inspired by the world-famous Wolfenstein 3D game, which was the first FPS ever. The goal was to make a dynamic view inside a maze.<br>
 
 ### from [@chris-bbrs](https://github.com/chris-bbrs) and [@gjupy](https://github.com/gjupy)<br>
 
-## Our cub3d
+## Usage
 ### Requirements to run the game
 only tested on **macOS Catalina (Version 10.15.7)**<br>
 For all other OS it is not guaranteed to work.<br>
 OpenGL and AppKit is required to run it.<br>
-If you want to run it on Linux [here](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html#compilation-on-linux) is a tutorial that might help and [here](https://github.com/42Paris/minilibx-linux) is the required version of miniLibX, this is **not tested** with our cub3D.<br>
-### How to cub3D
-1. run `make` in the root of the directory
-2. run `./cub3D maps/42.cub` in the root of the directory
-3. move the character with `WASD`
-4. turn the FOV left and right by pressing `arrow_left` and `arrow_right` or by moving the mouse right or left
+Click [here](https://github.com/codam-coding-college/MLX42/blob/master/README.md) for more information about the installation.<br>
 
 ### Map requirements
 - decide which texture is displayed on which side
@@ -40,3 +35,9 @@ If you want to run it on Linux [here](https://harm-smits.github.io/42docs/libs/m
   - `C 0, 183, 183`
 - you have to set the floor color, i.e.:
   - `F 141, 1, 126`
+
+### How to run the game
+1. run `make` in the root of the directory
+2. run `./cub3D maps/42.cub` in the root of the directory
+3. move the character with `WASD`
+4. turn the FOV left and right by pressing `arrow_left` and `arrow_right` or by moving the mouse right or left

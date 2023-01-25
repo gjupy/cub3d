@@ -38,7 +38,7 @@ Click [here](https://github.com/codam-coding-college/MLX42/blob/master/README.md
 
 ### How to run the game
 1. run `make` in the root of the directory
-2. run `./cub3D maps/42.cub` in the root of the directory
+2. run `./cub3D game.cub` in the root of the directory
 3. move the character with `WASD`
 4. turn the FOV left and right by pressing `arrow_left` and `arrow_right` or by moving the mouse right or left
 
